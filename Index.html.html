@@ -1,0 +1,1026 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="utf-8">
+<meta name="description"content="Official Website of Cinro Manor Villa and Spa>
+<meta name="author" content="Cinro Manor">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+
+<title> Cinro Manor Villa and Spa </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+<!-- Header Area Start -->
+<header class="header-area">
+<!-- Navbar Area -->
+<div class="conntainer">
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<div class="container">
+<a class="navbar-brand" href="index.html"><img src= "images/Cinor Manor Villa and Spa logo.jpg" alt="Company Logo"width="150" height: "150"></a>
+<div class="collapse navbar-collapse" id="ftco-nav">
+<ul class="navbar-nav ml-auto">
+
+<ul>
+  <li><a class="active"ref="Index.html">About Us </a></li>
+  <li><a href="Cinro Experience.html">Cinro Experience</a></li>
+    <li><a href="Accommodation.html">Accommodation</a></li>
+    <li><a href="Galllery.html">Gallery</a></li>
+    <li><a href="Contact Us.html">Contact Us</a></li>
+    <li><a href="Careers.html">Careers</a></li>
+    <li><a href=>Plan Your Stay.html><button type="button">Plan Your Stay</button></li></a>
+</ul>
+</nav>
+ <section></section>
+
+<style>
+ 
+*{
+padding:0;
+margin:0;
+text-direction:none;
+list-style:none;
+box-sizing;border-box;
+}
+
+body{
+  font-family: times roman;
+  font weight:bold;
+  background-color: #9e6f6d;
+  }
+
+
+nav{
+  background:#9e6f6d;
+  height: 80px;
+  width:100%;
+}
+
+nav ul{
+  float:right;
+  margin-right:20px;
+}
+.nav ul li{
+  display: inline-block;
+  line-height:80px;
+  margin: 0 5px;
+}
+nav ul li{
+  display:inline-block;
+  line-height:80px;
+  margin:0 5px;
+}
+
+nav ul li a{
+  color: whitesmoke;
+  font-size:17px;
+  padding:7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,a:hover{
+  background:#ffde59;
+  transition:.5s;
+}
+
+*check btn{
+font-size:30px;
+color:white;
+float:right;
+line-height:80px;
+margin-right:40px;
+cursor:pointer;
+display:none;
+}
+
+#check{
+  display:none;
+}
+
+@media (max-width:952px){
+.logo{
+paddimg-left:50px;
+}
+
+nav ul li a{
+  font-size:16px;
+}
+
+@media (max-width:858px){
+.checkbtn{
+  display:block;
+}
+
+ul{
+position:fixed;
+width:100%;
+height:100vh;
+background:#9e6f6d;
+top:80px;
+left:0;
+text-align:center;
+transition: all .5s;
+}
+
+nav ul li {
+  display:block;
+  }
+
+nav ul li a{
+  font size:20px;
+}
+
+a:hoveactive{
+  background:none;
+  color:#fef9e7;
+}
+
+
+</style>
+
+<div class="slideshow-container">
+<div class="numbertext"> </div>
+  <img src="images/Property Pic.jpg" style="width:100%">
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> </div>
+  <img src="images/Massage 5.jpg" style="width:100%">
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> </div>
+  <img src="images/Outdoor Model 2.jpg" style="width:100%">
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> </div>
+  <img src="images/Room 9.jpg" style="width:100%">
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext"> </div>
+  <img src="images/Outdoors 5.jpg" style="width:100%">
+  </div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<style>
+    <style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: none;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+<br>
+ <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Check In Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Check Out Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+        <style>
+
+        /* booking form */
+.book{
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("Cinro Banner.png") center/cover no-repeat;
+    color: #fff;
+    padding: 40px 60px;
+}
+.book-form{
+    display: grid;
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.book-form input[type = "submit"]{
+    margin: 18px 0 0 0;
+    background: var(--dark);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.book-form label, .book-form input{
+    width: 100%;
+}
+.book-form label{
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-bottom: 8px;
+}
+.book-form input:not(.btn){
+    margin: 4px 0 16px 0;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+.book-form input:focus{
+    outline: 0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+}
+@media(min-width: 768px){
+    .book-form{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 24px;
+    }
+}
+@media(min-width: 1170px){
+    .book-form{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(min-width: 1370px){
+    .book-form{
+        grid-template-columns: 2fr 2fr 1fr 1fr 1fr 2fr;
+    }
+    .book{
+        height: 40vh;
+        display: grid;
+    }
+}
+@media(max-width: 500px){
+    .book{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+</style>
+</section>
+
+
+<br>
+
+<div class="welcome-container">
+
+<img src="images/Clear Cinro logo-Photoroom.png" alt="Company Logo" width:"300" height="300";">
+<h1 style="color:#330000;font-size:40px; text-align:left;"> Welcome to a Hidden Gem in Paradise!</h1>
+
+<br>
+
+<p style="color:#ffff99;font-size:36px; text-align:left;"> Embark on a journey of unparalleled relaxation and rejuvenation as an oasis of calm awaits.
+
+<br> <br>
+
+ <p style="color:#330000;font-size:35px; text-align:left;">Situated in lowlands Tobago, Cinro Manor Villa and Spa  hold no less beauty or charm, tastefully decorated with all modern amenities and outfitted with a private pool for your ultimate enjoyment.</p>
+  <br> 
+
+<br>
+<p style="color:#330000;font-size:35px; text-align:left;"> In an era where privacy and safety remains pivotal, Cinro Manor Villa  and Spa is simply an island gem and the perfect staycation for persons seeking a safe, quiet and peaceful location to unwind, relax and recharge.</p></div>
+
+</div>
+
+<br> <br><br>
+ 
+<p style="color:#ffffcc;font-size:45px; text-align:left;"> Treat YOURSELF </p>
+    <p style="color:#ffff99;font-size:30px; text-align:left;">relaxation and beauty</p> 
+<p style="color:#ffe633;font-size:40px; text-align:left;"> REJUVENATE</p>
+<p style="color:#ffff99;font-size:30px; text-align:left;"> revive your soul</p>
+<p style="color:#ffffcc;font-size:40px; text-align:left;"> LUXURY ESCAPE</p>
+<p style="color:#ffe633;font-size:30px; text-align:left;"> serene oasis</p>
+<p style="color:#ffff99;font-size:30px; text-align:left;">  relaxation meets sophistication</p>
+<p style="color:#ffda00;font-size:45px; text-align:left;"> YOUR PARADISE AWAITS AT CINRO MANOR!</p>
+
+
+
+ <style>
+    .welcome-container img{
+        float:left;
+    }
+
+    </style>
+
+</section>
+   <br> <br> <br>
+
+<section>
+
+<!--Accommodation-->
+
+
+<div class="accommodations-container">
+<br> <br>
+
+<h2 style="color:#330000;font-size:40px; text-align:left"> ROOMS /POOL SIDE /BALCONY/ VILLA </h2>
+<br>
+
+<h3 style="color:#ffff99;font-size:39px; text-align:left;"> Plan Your Stay </h3>
+<br>
+
+ <p style="color:#330000;font-size:35px; text-align:left;"> Our six (6) bedroom villa boast of two (2) self contained floors which allows you the option for a single floor rental. In addition to the luxury experience, you have the pleasure to enjoy our very own Jencare Day Spa just footsteps away to cater to all your wellness needs as you journey on the path to rejuvenating your mind, body and soul.</p>
+
+<br><br>
+<p style="color:#330000;font-size:35px; text-align:left;"> Cinro Manor Villa offers an ideal staycation spot, blending comfort with luxury. Nestled in a serene environment, the villa provides spacious accommodations, elegantly decorated to ensure a cozy and relaxing atmosphere.</p>
+
+
+<button type="button" <a class="btn"><a href="file:///C:/Users/Blessed/Desktop/cinor%20manor%20website/html/Accommodations.html"> DISCOVER MORE </button> </a>
+
+
+<section
+</div>
+
+
+<style>
+    
+  .btn{
+
+    font-size: 16px;
+    font-family: times romans;
+    text-transform: uppercase;
+    border:none;
+    border border-radius: 10px;
+    padding:10px;
+    width:250px;
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  .btn:hover{
+    opacity:0.85;
+  }
+</style>
+
+
+<br> <br>
+
+<section>
+
+<div class="row">
+  <div class="column">
+    <h2 style="color:#997coo;font-size:20px;text-align: center;"> <strong>POOLSIDE  ROOM </strong></h2>
+    <img src="images/Resized Room 1.png" alt="Poolside Room" style="width:100%">
+  </div>
+  <div class="column">
+
+    <h2 style="color:#997coo;font-size:20px;text-align: center;"> <strong>BALCONY ROOM</strong></h2>
+    <img src="images/Resized Room 5.png" alt="Balcony Room" style="width:100%">
+  </div>
+  <div class="column">
+    <h2 style="color:#997coo;font-size:20px;text-align: center;"> <strong>VILLA ROOM </strong></h2>
+    <img src="images/Resized Room 3.png" alt="Villa Room" style="width:100%">
+  </div>
+</div>
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 32.33%;
+  padding:5px;
+}
+
+  .img{
+    transition: var(--transition);
+    }
+    
+.img:hover img{
+    transform: scale(1.1);
+px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ 
+</style>
+
+<section>
+
+<!--Cinro Manor Experience-->
+<div class="Cinro Experience-container">
+
+<h2 style="color:#330000;font-size:40px; text-align:center;"> Cinro Manor Experience </h2>
+<br>
+
+<h3 style="color:#ffda00;font-size:39px; text-align:center;">The Great Escape ... for the Body, Mind and Soul! </h3>
+<br> <br>
+
+ <p style="color:#ffda00;font-size:37px; text-align:center;"> <strong> Make Lasting Memories! </strong> </p>
+ <br>
+
+ <p style="color:#330000;font-size:35px;">Let's make your stay unforgetable at our versatile villa and spa. Create your perfect adventure as you explore our beautiful island, Tobago. The possibilities are endless, whether sea bathing, snorkelling, horseback riding or relaxing at the Cinro Manor Villa and Spa. We guarantee a rejuventating escape.</p>
+
+</div>
+</section>
+
+<br> <br>
+
+<section>
+
+<!--Events-->
+<div class="events-container">
+
+<p style="color:#330000;font-size:35px; text-align:center;"><strong> Hosting your birthday party, wedding, engagement or corporate retreat with sophistication and charm.</strong></p>
+<br>
+
+<p style="color:#330000;font-size:35px; text-align:center;">We have the  perfect space for your private celebrations or special event. </p>
+</div>
+
+</section>
+
+<br><br>
+
+<section>
+
+    <!--Gifts-->
+<div class="gifts-container">
+
+<h3 style="color:#ffffcc;font-size:33px; text-align:center;">WE GIFT EXPERIENCES </h3>
+
+<br>
+
+<p style="color:#ffda00;font-size:27px; text-align:center;"> Experiences makes the Best Gift! </p>
+
+<br>
+
+<p style="color:#330000;font-size:22px; text-align:center;"><strong> Spread happiness</strong> by giving your loves ones the ultimate gift experience at<strong> Cinro Manor Villa and Spa</strong>.
+
+<button type="button" <a class="btn"><a href="file:///C:/Users/Blessed/Desktop/cinor%20manor%20website/html/Cinro%20Experience.html"> DISCOVER MORE </button> </a>
+
+
+</div>
+</section>
+<br> <br>
+
+<style>
+.btn{
+
+    font-size: 16px;
+    text-transform: uppercase;
+    border:none;
+    border border-radius: 5px;
+    padding:10px;
+    width:140px;
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  .btn:hover{
+    opacity:0.85;
+  }
+
+</style>
+
+<div class="main1">
+    <ul>
+        <li>
+            <div class="slidetitle"> 
+               <span>Relax</span> </div>
+          <img src="images/Contact 2 stone.png">
+        
+        </li>
+        <li>
+            <div class="slidetitle"> 
+                <span>Explore</span></div>
+            <img src="images/Contact Pic 5.png">
+            
+        </li>
+        <li>
+            <div class="slidetitle"> 
+                <span>Parties</span></div>
+             <img src="images/Pic 6.png">
+        </li>
+
+       
+        <li>
+            <div class="slidetitle"> 
+                <span>Culture </span> </div>
+          <img src="images/Carrnival1.png">
+        
+        </li>
+
+         <li>
+            <div class="slidetitle"> 
+                <span>Spacation</span></div>
+          <img src="images/Cinro 3.png">
+        
+        </li>
+
+         <li>
+            <div class="slidetitle"> 
+                <span>Weddings</span></div>
+            
+              <img src="images/Poolside Wedding.png">
+            
+        </li>
+    </ul>
+    </div>
+        
+
+<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-28f24aee-161b-4e71-b68b-d619d66db10c" data-elfsight-app-lazy></div>
+
+<style>
+  *{
+    /* removing any padding that might become problematic */
+    margin: 0;
+    padding: 0;
+    }
+    
+  
+    
+    .main1 li{
+    /* forgot to put '.main' - 40 min debug :) */
+    position: relative;
+    display: block;
+    width: 160px;
+    float:left;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    
+    .main1 ul{
+    width:2000px;
+    }
+    
+    border-left: 1px solid rgba(0,0,0,0.65);
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 0 0 20px 10px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0 0 20px 10px rgba(0,0,0,0.45);
+    }
+    
+    .slidetitle{
+    /* initializing squares */
+    background: rgba(0,0,0,.65);
+    
+    /* position on bottom */
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 640px;
+    }
+    
+    .slidetitle span{
+    /* titles follow here
+    some values have to be exact */
+    display: block;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    }
+    
+    
+    
+    .main1{
+    /* some calculus */
+    margin: 50px;
+    width: 801px;
+    height: 320px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 3px #888888;
+    -moz-box-shadow: 0px 0px 10px 3px #888888;
+    -webkit-box-shadow: 0px 0px 10px 3px #888888;
+    }
+    
+    .main1 li img{
+    display:block;
+    }
+    
+    /* when u hover over the entire list, the default value is set to 40 */
+    .main1 ul:hover li{
+    width:40px;
+    }
+    
+    /* however, when you hover on a particular element from that list, the value is overriden. that's why the above comes first ^ */
+    .main1 ul li:hover{
+    width:640px;
+    }
+ 
+
+
+</style>
+
+
+
+
+</style>
+
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <q>- Very creative design with stunning inclusion of plants. Evening massage & pedicure poolside adds to the relaxation.</q>
+    <p class="client">- Analeigh R </p>
+  </div>
+
+
+    <div class="mySlides">
+    <q>This is a beautiful villa located in Lowlands Tobago. It’s also adjacent to a spa and is the perfect location to relax for a weekend getaway. </q>
+    <p class="client">-Vanessa Boyce </p>
+    </div>
+
+    <div class="mySlides">
+    <q>This place is definitely a fine vacation destination for couples and families.. It's clean, spacious inside-out, with a picturesque, vibrant view including the convenient amenities you need when you want to feel like home away from home.  My time at this villa was well spent!</q>
+    <p class="client">-Victorious Toya</p>
+    </div>
+
+    <div class="mySlides">
+    <q>Was there for jazz weekend and this place is awesome..... ppl you need to check it out.</q>
+    <p class="client">-Henry Lalla </p>
+  </div>
+
+    <div class="mySlides">
+    <q>I was there for a wedding reception and it was a beautiful place</q>
+    <p class="client">-Andre Nicholas</p>
+  </div>
+
+
+  <div class="mySlides">
+    <q>I had the pleasure of staying there in April and i must say I was very relax the place is beautiful I would recommend there for anyone. The amenities are great the place is very well organized and peaceful, try it am sure you will love it.</q>
+    <p class="client">-Samantha Pierre </p>
+  </div>
+
+
+  <div class="mySlides">
+    <q>This place is as beautiful as it's picture .... amazing customer service...serene .... clean..... a place of relaxation</q>
+    <p class="client">-Junette Bishop </p>
+  </div>
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+
+<style>
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: #f1c40f;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #b7950b;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.client {color:#641e16}
+
+</style>
+</body>
+
+
+</style>
+    </style>
+
+
+           
+       </body>
+   
+     <!-- footer -->
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>LET'S CONNECT </h2>
+                    <p style="color:#ff9900"> Come to Cinro Manor Villa and Spa for the Perfect Island Getaway of a Lifetime </p3>
+                      <ul class = "social-icons">
+                        <li class = "flex">
+                         <a href="https://www.tiktok.com/@cinromanor_villa?lang=es"><i class="fa-brands fa-tiktok"></i></a>
+
+                        </li>
+                        <li class = "flex">
+                            
+                         <a href="https://www.facebook.com/cinromanor/"><i class = "fa fa-facebook fa-2x"></i></a>        
+                        </li>
+                        <li class = "flex">
+                            <a href="https://www.instagram.com/cinromanor/?hl=en"> <i class ="fa fa-instagram fa-2x"></i>   
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Useful Links</h2>
+                    <a href = <file:///C:/Users/Blessed/Desktop/cinor%20manor%20website/html/Cinro%20Experience.html>Events</a>
+                    <a href = <file:///C:/Users/Blessed/Desktop/cinor%20manor%20website/html/Accommodation.html>Rooms</a>
+                    <a href = <a href="https://www.facebook.com/jencaredayspatt/">Jencare Day Spa</a>
+                    <a href = <file:///C:/Users/Blessed/Desktop/cinor%20manor%20website/html/Cinro%20Experience.html>Gifts</a>
+                </div>
+
+                  <div>
+                    
+                        <span>
+                              <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                            LP 95 Cinro Court, Old Milford Road, Hampton, Lowlands, Tobago 
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            
+                            <i class ="fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                          <p><a href="tel:+8687744546"> +868 775 4546 </a></p> <p><a href="tel:+8686841708">+868 684 1708 </a></p>
+                        </span>
+                    </div>
+
+                  <div class = "contact-item">
+                        <span>
+                        <i class = "fas fa-envelope"></i>
+                        </span>
+                    <span>
+                        <p><a href="mailto:cinromanor@gmail.com">cinromanor@gmail.com</a></p>
+                    </span>
+                    </div>
+
+                    <h3>Visit Tobago </h3>
+                    <span>
+                          <a href="https://www.visittobago.gov.tt/">VisitTobago.gov.tt!</a>
+                        </span>
+                    </div>
+
+                    <span>
+                        <p>&copy; Copyright 2024  All rights reserved by Cinro Manor Villa and Spa </p>
+                </span>
+               </div>
+                </div>
+                </div>
+            </footer>
+
+<style>
+                /* footer */
+.footer{
+    background:#1B1B1B;
+    color: #fff;
+    text-align: center;
+}
+
+
+.footer-container{
+    width: 55vw;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.footer-container p, .footer-container a, .footer-container span{
+    opacity: 0.8;
+}
+.footer a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+.social-icons{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.social-icons li{
+    margin: 0 10px;
+    width: 50px;
+    height: 45px;
+    background: #2e2e2e;
+    border-radius: 50%;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.social-icons li:hover{
+    background: #fff;
+    color: #2e2e2e;
+}
+.contact-item span{
+    display: block;
+}
+@media(min-width: 1000px){
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@media(min-width: 1300px){
+    .footer{
+        text-align: left;
+    }
+    .footer-container{
+        grid-template-columns: repeat(5, 2fr);
+    }
+    .footer-container div:nth-child(1) p{
+        padding-right: 20px;
+    }
+    .contact-item{
+        display: grid;
+        grid-template-columns: 10% 90%;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+}
+
+.showModal{
+    position: fixed;
+    background: transparent;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+
+</style>
+             
+        </footer>
+        <!-- end of footer -->
+        
+        <script src="script.js"></script>
+
+
+        
+</body>
+
+</html>
+
+
+ 
